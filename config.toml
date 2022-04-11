@@ -1,4 +1,19 @@
-baseURL = 'https://bram85.github.io'
+baseURL = 'https://www.bram85.nl'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'bram85'
 theme = "hugo-theme-monochrome"
+
+[[menu.navbar]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 80
+
+[[menu.navbar]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 80
+
+[params]
+footer = "© 2022 - Bram Schoenmakers"
