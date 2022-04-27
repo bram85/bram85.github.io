@@ -1,10 +1,11 @@
 +++
 title = "Emacs Lisp: Expand macros"
 author = ["Bram"]
-lastmod = 2022-04-27T20:56:46+02:00
+date = 2022-04-27T21:02:00+02:00
+lastmod = 2022-04-27T21:02:19+02:00
 tags = ["til", "emacs", "lisp", "elisp"]
 categories = ["Today I Learned"]
-draft = true
+draft = false
 +++
 
 To expand a macro, the `pp-macroexpand-last-sexp` is a useful function. It's like `pp-eval-last-sexp`, but opens a new buffer with the expanded code without evaluation.
